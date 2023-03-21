@@ -19,7 +19,7 @@ client = Client(api_key, api_secret)
 symbol = 'ETHUSDT'
 
 # Define the strike price and quantity you want to trade
-strike_price = '1750'
+strike_price = '1780'
 qty = '1'
 
 # Define a function to place a market long order
@@ -63,7 +63,7 @@ while True:
         print(f'Long position closed at price {current_price}')
 
     # Wait for 1 second before checking the price again
-    time.sleep(1)
+    time.sleep(30)
 
 
 # In[ ]:

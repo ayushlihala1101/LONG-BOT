@@ -18,7 +18,7 @@ client = Client(api_key, api_secret)
 symbol = 'ETHUSDT'
 
 # Define the strike price and quantity you want to trade
-strike_price = '1600'
+strike_price = '1665'
 qty = '1'
 
 # Define a function to place a market short order
@@ -70,7 +70,7 @@ while True:
         short_order_id = None
 
     # Wait for 1 second before checking the price again
-    time.sleep(1)
+    time.sleep(30)
 
 
 # In[ ]:
